@@ -1,0 +1,111 @@
+.flex-box-row {
+    height:500px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+
+    /* Main Axis Aligment */
+    justify-content: start;
+
+    /* Cross Axis Alignment */
+    align-items: start;
+
+
+
+    
+    /* - end
+    - start
+    - center 
+    - space-between
+    */
+}
+
+/*
+    1+1+1+1 = 4
+    Total Width / 4 = Per Item Width
+
+    1+2+1+1 = 5
+    Total Width / 5 = Per Segment Width
+
+    5+10+5+5
+
+*/
+
+.item-1 {
+    flex-grow: 1;
+}
+
+.item-2 {
+    flex-grow: 2;
+}
+
+.item-3 {
+    flex-grow: 1;
+}
+
+.item-4 {
+    flex-grow: 1;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.red {
+    background-color: red;
+}
+
+
+.game-area {
+    display: flex;
+    flex-direction: column;
+    height: 1400px;
+    background-color: rgb(180, 255, 180);
+    font-size: 160px;
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+}
+
+.player-sides {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    flex-grow: 1;
+    display: flex;
+}
+
+.game {
+    flex-grow: 1;
+    background-color: cadetblue;
+}
+
+.player-top {
+    background-color: yellow;
+}
+
+.player-bottom {
+    background-color: purple;
+}
+
+.player-left {
+    background-color: orange;
+}
+
+.player-right {
+    background-color: coral;
+}
