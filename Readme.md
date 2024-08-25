@@ -35,3 +35,8 @@
   
   <script src="script.js"></script>
 </body>
+  <video src="Videos/Video 1.mov" width="320" height="240" controls>Video</video><br>
+
+   <div class="main">
+    <img src="Images/img1.JPG" width="50%" height="50%"  alt="Click by Saade">
+  </div>

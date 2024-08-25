@@ -1,26 +1,33 @@
 body{
-    background-color: rgb(128, 128, 128);
+    
+    background-image: url(Images/img1.JPG);
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    
+
+   /* background-color: rgb(128, 128, 128);*/
 }
 
 #header{
     text-align: center;
     color: white;
-    background-color: black;
+}
+
+#content {
+    color: white;
 }
 
 * {
     box-sizing: border-box;
   }
-.column {
-    float:  left;
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 10%;
     padding: 5px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 .main {
