@@ -7,3 +7,24 @@ body{
     color: white;
     background-color: black;
 }
+
+* {
+    box-sizing: border-box;
+  }
+.column {
+    float:  left;
+    width: 10%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main {
+    float: left;
+    width: 10%;
+    padding: 5px;
+}
